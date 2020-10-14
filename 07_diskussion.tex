@@ -1,58 +1,47 @@
 \newpage
 \section{Diskussion}
 \label{sec:diskussion}
-Beginnend mit den Temperaturprofilen der Wärmetauscher für die Reihen- und Parallelschaltung werden an dieser Stelle die Messergebnisse diskutiert und bewertet. Die in der Abbildung \ref{dia:temp_profil} dargestellten Temperaturverläufe, welche über den Rohrabschnitt aufgetragen wurden,  geben erste Indizien zur Bewertung der beiden Fahrweisen. Es zeigt sich, dass die Temperaturverläufe für den parallelen Betrieb deutlich steiler zulaufen als für die Reihenschaltung. Zu erkennen ist ebenfalls, dass die Temperaturdifferenzen der Parallelschaltung größer sind, als die der Reihenschaltung. Somit lässt sich die Vermutung aufstellen, dass die Parallelschaltung die effizientere Wärmeübertragung für die jeweils eingestellten Volumina liefert. Jedoch sollte beachtet werden, dass für beide Verfahren unterschiedliche Volumenströme gefahren werden. Somit kann anhand dieses Diagramms lediglich die Fahrweise mit den entsprechenden Betriebsparametern verglichen werden. Es gibt jedoch keine Auskunft über den Vergleich von Reihen- und Parallelschaltung.\\
+Aus den Ergebnissen des Praktikumsversuches und den Berechnungen lässt sich zunächst erkennen, dass sich die Messreihe 1 als nicht plausibel herausstellt. Dies lässt sich auf Durchführungsfehler während des Praktikums zurückführen. Die Messreihen 2 und 3 zeigen jedoch verwertbare Daten, aus denen mögliche Schlüsse gezogen werden können.\\
 
-Anhand der Wärmeströme lassen sich nun beide Fahrweisen quantitativ unterscheiden. Die Korrektur der Volumenströme ist hierbei notwendig und gibt Auskunft über den Fehler der Messungen am jeweiligen System. An dieser Stelle zeigt sich, dass über die Parallelschaltung, in Bezug auf die Menge an übertragener Wärme,  effizienter erscheint als die Reihenschaltung. Doch dass lediglich mehr Wärme übertragen wird, gibt noch keine Aussage über die Effizienz des Schaltung. Es lässt sich jedoch sagen, dass offensichtlich in der Parallelschaltung mehr Wärme übertragen und somit abgeführt werden kann, als es für die Reihenschaltung der Fall ist.\\
+Zunächst zeigt sich in Abb. \ref{dia:konzentration}, dass in der gleichen Zeit Messreihe 3 mit \SI{140}{\per \minute} eine höhere Sauerstoffkonzentration erreicht als Messreihe 2 mit \SI{110}{\per \minute}. Als These lässt sich hierbei in den Raum stellen, dass bei höheren Drehzahlen ein besserer Stoffübergang erfolgt.\\
 
-Zieht man in die Betrachtung nun auch die Wirtschaftlichkeit der jeweiligen Fahrweise mit ein, so setzt man die übertragene Wärmemenge in ein Verhältnis zur benötigen elektrischen Leistung für die Förderung des Fluides. Wirtschaftlichkeit bedeutet in diesem Fall, dass maximal viel Wärme übertragen wird, für einen minimalen Einsatz an elektrischer Leistung für die Kreiselpumpe. Demnach ist das Ziel möglichst hohe Werte für dieses Verhältnis zu erreichen. Es zeigt sich, dass die Werte für die Parallelschaltung deutlich wirtschaftlicher erscheinen als die Reihenschaltung, aufgrund der höheren Menge an übertragenen Wärme über den auszugleichenden Druckverlust. Im Gesamtaufbau überzeugt die Parallelschaltung mit einem Ergebnis, welches um 30\% besser ist, als das der Reihenschaltung.
-So besticht die Parallelschaltung unter diesem Aspekt, sowohl für die einzelnen Wärmeübertrager, als auch im Gesamtsystem für diesen Versuchsaufbau. \\
+Auch in Bezug auf die Stoffmengenänderungsgeschwindigkeiten zeigt Messreihe 3 eine effizientere Performance als Messreihe 2. Zu sehen ist dies an dem steileren Abfall der jeweiligen Regressionsgeraden (siehe Abb. \ref{dia:stoffmengenaenderung}), welcher einem schnelleren Umsatz entspricht.\\
 
-Vergleicht man nun zuletzt die Wärmeübergangs- sowie die Wärmedurchgangskoeffizienten zeigt sich die Fahrweise der Reihenschaltung als effektiver. Erkennbar ist dies daran, dass für jeden betrachteten Wärmetauscher der Wert für die übertragene Fläche pro Quadratmeter und Kelvin in der Reihenschaltung höher ist. Auch der Wärmedurchgang, welcher die übertragene Wärme pro Meter Rohrleitung und Kelvin angibt, ist für diesen Versuchsaufbau für die Reihenschaltung größer. Ein Vergleich der Wärmedurchgangskoeffizienten in \mbox{Diagramm \ref{dia:durchng}} verdeutlicht nochmals grafisch, dass die Wärmetauscher im Reihenbetrieb effizienter arbeiten.
+Betrachtet man Abbildung \ref{dia:reynolds} so werden Unterschiede in der differentiellen und in der integrativen Methode deutlich. So lässt sich jedoch vorrangig die integrativen Wert als kritisch, da dafür die Annahme der Phasenkonzentration $c^\ast$ lediglich auf dem letzten Messwert der jeweiligen Messreihe basiert. Somit werden auch die Werte, die aus dieser Grafik mathematisch zu entnehmen sind auf der differentiellen Methodik basieren. \\
+Ob man nun differentiell oder integrativ die Graphen betrachtet ist jedoch unwesentlich, sobald man den generellen Zusammenhang zwischen Reynoldszahl und dem Stoffübergangskoeffizienten betrachtet. Es fällt auf, dass auch hier bei einer höheren Reynoldszahl, sprich einer höheren Drehzahl ein höherer Stoffübergangskoeffizient auftritt. Zu erkennen ist die dies an den geringeren Werten für $\ln\left(k_l*a\right)$.
+Die ursprüngliche These, dass bei höheren Drehzahlen der Stoffübergang gefördert wird, wird somit nochmals untermauert.\\
 
-\begin{figure}[h!]
-	\begin{center}
-		\resizebox{0.8\textwidth}{!}{
-			\begin{tikzpicture}
-			\begin{axis}[
-			width  = 0.85*\textwidth,
-			height = 7cm,
-			major x tick style = transparent,
-			ybar=2*\pgflinewidth,
-			bar width=14pt,
-			ymajorgrids = true,
-			ylabel = {$U \, \left[\si{\watt \per \meter\per\kelvin}\right]$},
-			symbolic x coords={WÜ1,WÜ2},
-			xtick = data,
-			scaled y ticks = false,
-			enlarge x limits=0.25,
-			ymin=0,
-			legend cell align=left,
-			legend style={
-				at={(1,1.05)},
-				anchor=south east,
-				column sep=1ex
-			}
-			]
-			%Reihenschaltung
-			\addplot[style={black,fill=black,mark=none}]
-			coordinates {(WÜ1, 31.13) (WÜ2,34.98)};
-			
-			%Paralaleschaltung
-			\addplot[style={gray,fill=gray,mark=none}]
-			coordinates {(WÜ1,23.97) (WÜ2,24.08)};
-			
-			
-			\legend{Reihenschaltung, Parallelschaltung}
-			\end{axis}
-			\end{tikzpicture}
-		}
-		\caption{Grafischer Vergleich der Wärmedurchgangskoeffizienten}
-		\label{dia:durchng}
-	\end{center}
-\end{figure}
+Um nun die Messreihen untereinander nochmals auf Plausibilität zu prüfen werden die berechneten \textsc{Henry}-Konstanten mit Literaturwerten verglichen.\\
+\vspace*{-5mm}
+% Table generated by Excel2LaTeX from sheet 'Daten'
+\begin{table}[h!]
+	\renewcommand*{\arraystretch}{1.2}
+	\centering
+	\rowcolors{2}{white}{gray!25}
+	\caption{Vergleich der \textsc{Henry}-Konstanten}
+	\label{tab:henry}
+	\resizebox{14cm}{!}{
+		\begin{tabulary}{1.15\textwidth}{C|CCC|C}
+			\hline
+			 & \SI{80}{\per \minute} & \SI{110}{\per \minute}&\SI{140}{\per \minute}&\textbf{Literatur} \cite[S. 535]{Draxler.2014}\\
+			\hline
+			\textsc{Henry}-Konstante ( für $T=\SI{20}{\celsius}$)&\SI{44937}{\bar}&\SI{40837}{\bar}&\SI{40751}{\bar}&\SI{38286}{\bar}\\
+			Abweichung gegenüber Literaturwert& \SI{17,4}{\percent}&\SI{6,7}{\percent}&\SI{6,4}{\percent}&-\\
+			Abweichung gegenüber \SI{140}{\per \minute}& \SI{10,3}{\percent}&\SI{0,2}{\percent}&\SI{0}{\percent}& -\\
+			\hline			
+	\end{tabulary}}
+\end{table}%
 \FloatBarrier
-\newpage
-Schlussendlich lässt sich sagen, dass für die gegebenen Betriebsparameter die Parallelschaltung in ihrer Effizienz gegenüber der Reihenschaltung überzeugt. Gerade in Bezug auf die Wirtschaftlichkeit hat die Reihenschaltung keine überzeugenden Argumente für den Betrieb hervorgebracht. Jedoch ist die Reihenschaltung in Bezug auf den Wärmeübergangsprozess effizienter als die Parallelschaltung. Da im Regelfall die benötigte Pumpleistung für den Parallelbetrieb, aufgrund von Strömungswiderständen, größer wäre und sich somit auch der wirtschaftliche Faktor ändern würde, ist es sinnvoller eine Reihenschaltung vorzuziehen. Aus den Ergebnissen des theoretischen Versuches für dieses Protokoll ist jedoch laut dem wirtschaftlichen Aspekt die Parallelschaltung vorzuziehen.
 
-Der berechnete Wärmeverlust entspricht mit den in Gleichung \eqref{gl:Energie-eingesetzt} berechneten \SI{637,5}{\watt} 52\% der Heizleistung. Dies ist aufgrund der vielen un-isolierten Bereiche an der Kolonne plausibel.
+In Tabelle \ref{tab:henry} sind wiederholt die einzelnen \textsc{Henry}-Konstanten aufgeführt. Ebenfalls dargestellt sind die Abweichungen der Konstanten in Bezug auf Messreihe 3 und auf einen recherchierten Literaturwert.\\
+Für die \textsc{Henry}-Konstanten wäre zu erwarten gewesen, dass diese jeweils dem selben Zahlenwert entsprechen. Da dies aufgrund von Messtoleranzen und Annahmen kaum möglich ist, sollte die Werte auch mit einer gewissen Toleranz bewertet werden.\\
+So fällt zunächst auf, dass sich alle Werte für die \textsc{Henry}-Konstante in einem ähnlichen Zahlenbereich befinden. Das größte Vertrauen wird hierbei in den Literaturwert gesteckt, das dieser aus einem Fachbuch entstammt \cite{Draxler.2014}. Vergleicht man die Abweichung der \textsc{Henry}-Konstanten mit dem Literaturwert so fällt wiederholt die Messreihe 1 auf. Sie besitzt mit \SI{17,4}{\percent } die höchste Abweichung gegenüber dem Literaturwert und bewegt sich außerhalb der Abweichungen der Messreihen 2 und 3. 
+\newpage
+Diese besitzen Abweichungen zwischen 6,0 - \SI{7}{\percent}. Somit bestätigt sich die fehlerhafte Durchführung der Messreihe auch in dieser Auswertung und die Messdaten gelten somit als nicht plausibel.\\
+Betrachtet man die Messreihen 2 und 3 so könnte man behaupten, dass diese als plausibel gelten, wenn die Abweichrate für diesen Versuch nicht zu hoch erscheint. Für weitere Validierung der Messreihen 2 und 3 könnten weitere Literaturwerte hinzugezogen werden.\\
+Vergleicht man die Konstanten der Messreihen nochmals untereinander in Bezug auf Messreihe 3, so zeigt sich das vor allem die Messreihen 2 und 3 untereinander geringe Abweichungen im Vergleich zu Messreihe 1 und 3 haben. Somit würden Messreihe 2 und 3 auch die These der Konstanz der \textsc{Henry}-Konstante bestätigen und könnten somit als plausibel gewertet werden.\\
+
+Nach diesen Ausführungen stellt sich nun die Frage, welche Schlussfolgerungen für den Stoffübergang von Sauerstoff in Wasser für diesen Versuch getroffen werden können.
+Die These, dass mit erhöhter Drehzahl ein effizienterer Stofftransport gewährleistet werden lässt mit den Messreihen 2 und 3 in den vorangegangenen Ausführungen bestätigen. Eine höhere Drehzahl des Rührers verbessert für diesen Versuchsaufbau die Absorption von Sauerstoff in Wasser. \\
+Der Stoffübergang könnte sich möglicher Weise mit einem geeigneteren Rührer, wie beispielsweise einem Scheibenrührer oder einem Rohrsegmentrührer verbessert werden. Ein Ankerrührer ist für diese Anwendung eher ungeeignet.\\
+Weiterhin könnte, wenn möglich ein anders Stoffsystem genutzt werden, welches Sauerstoff besser absorbiert als Wasser und somit die Diffusion durch die Phasengrenzen erhöht. Ebenfalls könnte die Phasengrenzfläche erhöht werden, um mehr Stoffkontakt zu ermöglichen. So wäre es denkbar, dass die Luft mit noch feineren Bläschen in die Lösung eingedüst wird. Zuletzt bleibt noch die Möglichkeit die Hydrodynamik zu verbessern. Dies könnte in Form einer Verringerung der jeweiligen Dicken der  Phasengrenzen möglich sein.
