@@ -85,6 +85,7 @@ hidelinks
 \DeclareSIUnit\rpm{rpm}	
 \DeclareSIUnit\mws{mWS}	
 \DeclareSIUnit\degrees{^\circ}	
+\DeclareSIUnit\kmeter{\raiseto{3}\meter}	
 
 %Automatisch cdot statt *
 \DeclareMathSymbol{*}{\mathbin}{symbols}{"01}
@@ -96,7 +97,7 @@ hidelinks
 
 %nur letzte Zeile der Gleichung nummerieren
 \makeatletter
-\def\Let@{\def\\{\notag\math@cc}}
+\def\Let@{\def\\{\notag\math@cr}}
 \makeatother
 
 % zusätzliche Schriftzeichen der American Mathematical Society

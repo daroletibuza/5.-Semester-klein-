@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.11.16)  17 NOV 2020 19:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.11.16)  18 NOV 2020 18:10
 entering extended mode
 **./00_PT_Kuhlturm.tex
 (00_PT_Kuhlturm.tex
@@ -1272,8 +1272,8 @@ Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language80
 LaTeX Info: Redefining \_ on input line 43.
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 15
-9.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 16
+0.
 
 ("C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1281,22 +1281,22 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 (01_titel.aux) (08_literatur.aux))
 \openout1 = `00_PT_Kuhlturm.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1335,7 +1335,7 @@ LaTeX Font Info:    ... okay on input line 159.
 
 Package hyperref Warning: Draft mode on.
 
-Package hyperref Info: Link coloring OFF on input line 159.
+Package hyperref Info: Link coloring OFF on input line 160.
 ("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1347,9 +1347,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count356
 )
-LaTeX Info: Redefining \ref on input line 159.
-LaTeX Info: Redefining \pageref on input line 159.
-LaTeX Info: Redefining \nameref on input line 159.
+LaTeX Info: Redefining \ref on input line 160.
+LaTeX Info: Redefining \pageref on input line 160.
+LaTeX Info: Redefining \nameref on input line 160.
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
 (scrartcl)           because of handling of possible bookmark level gaps.
@@ -1357,7 +1357,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 159.
+(scrartcl)           before \begin{document} on input line 160.
 
 ("C:\Program Files\MiKTeX\tex/latex/bookmark\bookmark.sty"
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
@@ -1385,7 +1385,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
 
-Package chemgreek Info: Activating mapping `default' on line 159.
+Package chemgreek Info: Activating mapping `default' on line 160.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
@@ -1399,11 +1399,11 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
 your preamble.
- on input line 159.
+ on input line 160.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 159.
+(lastpage)             ! on input line 160.
 ("C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape.sty"
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -1416,54 +1416,54 @@ ish.dict"
 Dictionary: translator-basic-dictionary, Language: English 
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-59.
+60.
  ("C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-59.
+60.
 
 ("C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-159.
+160.
 
 ("C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-159.
+160.
 
 ("C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 159.
+(Font)              <12> on input line 160.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 159.
+(Font)              <8> on input line 160.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 159.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 159
+(Font)              <6> on input line 160.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 160
 .
 
 ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 159
+LaTeX Font Info:    Trying to load font information for U+msb on input line 160
 .
 
 ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-159.
+160.
 
 ("C:\Program Files\MiKTeX\tex/latex/lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-159.
+160.
 
 ("C:\Program Files\MiKTeX\tex/latex/lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1526,20 +1526,50 @@ Underfull \hbox (badness 2213) in paragraph at lines 10--11
 , die
  []
 
-) (05_durchfuerung.tex) (06_ergebnisse.tex
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-4.
 
-("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd"
+Overfull \hbox (35.0071pt too wide) detected at line 17
+[]
+ []
+
+[1
+
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+8.
+ ("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [1
+) [2])
+(05_durchfuerung.tex) (06_ergebnisse.tex [3]
+Overfull \hbox (36.99352pt too wide) in paragraph at lines 11--64
+ [][] 
+ []
+
+[4
+
+]
+Overfull \hbox (36.99352pt too wide) in paragraph at lines 76--128
+ [][] 
+ []
+
+[5
 
 
-]) (07_diskussion.tex
-[2]) (011_fehlerbetrachtung.tex) [3]
+]
+Overfull \hbox (36.98468pt too wide) in paragraph at lines 142--194
+ [][] 
+ []
+
+[6
+
+
+]) (07_diskussion.tex) (011_fehlerbetrachtung.tex) [7
+
+]
 \openout2 = `08_literatur.aux'.
 
- (08_literatur.tex (00_PT_Kuhlturm.bbl
+ (08_literatur.tex
+(00_PT_Kuhlturm.bbl
 Underfull \hbox (badness 1158) in paragraph at lines 29--35
 []\T1/lmr/m/sc/14.4 Wikipedia \T1/lmr/m/n/14.4 (Hrsg.):  \T1/lmr/m/it/14.4 Nel-
 ken-öl\T1/lmr/m/n/14.4 .  Version:2020.  $https : / / de .
@@ -1551,19 +1581,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--35
  200175144$,
  []
 
-)) [4
+)) [8
 
 ] 
 AED: lastpage setting LastPage
 (00_PT_Kuhlturm.aux (01_titel.aux) (08_literatur.aux)) ) 
 Here is how much of TeX's memory you used:
- 39576 strings out of 479837
- 933945 string characters out of 2880961
- 1521180 words of memory out of 3000000
- 55759 multiletter control sequences out of 15000+200000
- 628486 words of font info for 91 fonts, out of 3000000 for 9000
+ 39605 strings out of 479837
+ 934304 string characters out of 2880961
+ 1523227 words of memory out of 3000000
+ 55778 multiletter control sequences out of 15000+200000
+ 645595 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 106i,17n,111p,10611b,831s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 106i,26n,111p,10611b,1159s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): 
 name{section.6} has been referenced but does not exist, replaced by a fixed one
 
@@ -1583,20 +1613,25 @@ replaced by a fixed one
 pdfTeX warning (dest): name{section.1} has been referenced but does not exist, 
 replaced by a fixed one
 
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/
-fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ma
-thsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program File
-s/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX/fonts/type1/
-public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb
-><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/Mi
-KTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
-ic/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Pr
-ogram Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/font
-s/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lms
-sbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on 00_PT_Kuhlturm.pdf (5 pages, 414274 bytes).
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiK
+TeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm
+-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program F
+iles/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dv
+ips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb>
+<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
+ic/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/
+Program Files/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files/MiKTeX/f
+onts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/l
+mr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/
+public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiK
+TeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
+c/lm/lmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
+Output written on 00_PT_Kuhlturm.pdf (9 pages, 492869 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
+ 139 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

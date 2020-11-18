@@ -9,16 +9,46 @@ Zu Beginn des Versuches sind dabei die Wärmeverluste durch die Leitung des Küh
 
 Nach Ermittlung der Verlustwärme kann nun mit der Gesamtwärme $\dot{Q}_{\text{ges}}$ des jeweiligen laufenden Prozesses mit warmer Luft, die nutzbare Wärme $\dot{Q}_{\text{Nutz}}$ berechnet werden. Wichtig ist dabei, dass die Wassertemperatur und der Massenstrom des Wassers nahezu konstant gehalten werden mussten.
 
-%\begin{flalign}
-%	\dot{Q}_{ges} &= \dot{Q}_{\text{Nutz}}+\dot{Q}_V\\
-%	\dot{Q}_{\text{Nutz}} &= 	\dot{Q}_{ges} -\dot{Q}_V\\
-%													&= \dot{m}_{\ce{H2O}}*c_{P_{\ce{H2O}}}*\left(T_{\alpha, \ce{H2O},1}-T_{\omega, \ce{H2O},1}\right)-\dot{m}*c_{P_{\ce{H2O}}}*\left(T_{\alpha, \ce{H2O},V}-T_{\omega, \ce{H2O},V}\right)\\
-%													&= \dot{m}_{\ce{H2O}}*c_{P_{\ce{H2O}}}*\left(T_{\alpha, \ce{H2O},\text{ges}}-T_{\omega, \ce{H2O},\text{ges}}-T_{\alpha, \ce{H2O},V}+T_{\omega, \ce{H2O},V}\right)\\
-%\end{flalign} 
+\begin{flalign}
+	\dot{Q}_{ges} &= \dot{Q}_{\text{Nutz}}+\dot{Q}_V \\
+	\dot{Q}_{\text{Nutz}} &= 	\dot{Q}_{ges} -\dot{Q}_V \\
+													&= \dot{m}_{\ce{H2O}}*c_{P_{\ce{H2O}}}*\left(T_{\alpha, \ce{H2O},1}-T_{\omega, \ce{H2O},1}\right)-\dot{m}*c_{P_{\ce{H2O}}}*\left(T_{\alpha, \ce{H2O},V} - T_{\omega, \ce{H2O},V}\right) \\
+													&= \dot{m}_{\ce{H2O}}*c_{P_{\ce{H2O}}}*\left(T_{\alpha,\ce{H2O},\text{ges}}-T_{\omega, \ce{H2O},\text{ges}}-T_{\alpha, \ce{H2O},V}+T_{\omega, \ce{H2O},V}\right) \\
+\end{flalign} 
 
 Ausgehend von der \textsc{Merkel}'schen Hauptgleichung lässt sich nun eine vereinfachte Energiebilanz zwischen dem Kühlwasser und der warmen Luft aufstellen. Diese vereinfachte Form gilt unter der Annahme, dass die Verdunstungsmenge an Wasser im Vergleich zur Kühlwassermenge vernachlässigbar ist.
 
-%\begin{flalign}
-%	\dot{Q}_L &= \dot{Q}_{\text{Nutz}}\\
-%	\dot{m}_L * \left(h_{L2}-h_{L1}\right) &= \dot{m}_{\ce{H2O}} * \left(T_{\omega, \ce{H2O}}-T_{\alpha, \ce{H2O}}\right) \\
-%\end{flalign}
+\begin{flalign}
+	\dot{Q}_L &= \dot{Q}_{\text{Nutz}} \\
+	\dot{m}_L * \left(h_{L2}-h_{L1}\right) &= \dot{m}_{\ce{H2O}} * \left(T_{\omega, \ce{H2O}}-T_{\alpha, \ce{H2O}}\right) \\
+\end{flalign}
+
+Umgeformt führt diese Gleichung zum Massenstrom der Luft. Die benötigten spezifischen Enthalpien der feuchten Luft lassen sich mit dem \textsc{Mollier}-Diagramm bestimmen.
+ \begin{flalign}
+ 	\dot{m}_L &= \frac{\dot{Q}_{\text{Nutz}}}{\left(h_{L2}-h_{L1}\right) }\\[2mm]
+ 							&= \frac{\dot{m}_{\ce{H2O}} * \left(T_{\omega, \ce{H2O}}-T_{\alpha, \ce{H2O}}\right)}{\left(h_{L2}-h_{L1}\right) }
+ \end{flalign}
+
+Um den geforderten Volumenstrom zu bestimmen ist zusätzlich eine Berechnung der Dichte für die entsprechenden Messreihen notwendig. In diesem Fall erfolgt die Bestimmung über den Sättigungsdampfdruck über Wasser durch die \textsc{Magnus}-Formel  und der Gaskonstante für feuchte Luft.
+
+Mangusformel
+\begin{flalign}
+	E &= \SI{6,112E2}{\pascal}*\exp^{\frac{17,62*T_L}{243,12+T_L}}
+\end{flalign}
+T in °C
+
+Gaskonstante
+\begin{flalign}
+	R_f &=\frac{R_t}{1-\varphi*\frac{E}{p}*\left(1-\frac{R_t}{R_d}\right)}
+\end{flalign}
+p, Rt und Rd erklären
+
+Luftdichte
+\begin{flalign}
+	\rho_L &= \frac{p}{R_f*T_L}
+\end{flalign}
+T in K
+
+https://rechneronline.de/barometer/saettigungsdampfdruck.php
+https://rechneronline.de/barometer/luftdichte.php
+https://www.ilkdresden.de/projekt/mollier-hx-diagramm/
