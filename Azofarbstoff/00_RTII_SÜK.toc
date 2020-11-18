@@ -1,0 +1,12 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}%
+\contentsline {section}{\numberline {2}Geräte und Chemikalien}{2}{section.2}%
+\contentsline {section}{\numberline {3}Durchführung}{2}{section.3}%
+\contentsline {section}{\numberline {4}Ergebnisse und Berechnungen}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Allgemeine Daten und Annahmen}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Messdaten und Berechnungen}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Weitere Berechnungen}{7}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Diskussion}{9}{section.5}%
+\contentsline {section}{\numberline {6}Fehlerbetrachtung}{10}{section.6}%
+\contentsline {section}{Literaturverzeichnis}{11}{section*.11}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
