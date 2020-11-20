@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.11.16)  19 NOV 2020 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.11.16)  20 NOV 2020 09:11
 entering extended mode
 **./00_PT_Kuhlturm.tex
 (00_PT_Kuhlturm.tex
@@ -1548,16 +1548,13 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
 ("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [2]) (05_durchfuerung.tex
-<img/fliessbild.jpg, id=31, 521.66895pt x 173.2071pt>
+[3]
+<img/fliessbild.jpg, id=35, 521.66895pt x 173.2071pt>
 File: img/fliessbild.jpg Graphic file (type jpg)
 <use img/fliessbild.jpg>
-Package pdftex.def Info: img/fliessbild.jpg  used on input line 8.
-(pdftex.def)             Requested size: 384.1096pt x 127.5343pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3]) (06_ergebnisse.tex [4 <./img/fliessbild.jpg>]
+Package pdftex.def Info: img/fliessbild.jpg  used on input line 9.
+(pdftex.def)             Requested size: 426.79135pt x 141.7083pt.
+) (06_ergebnisse.tex [4 <./img/fliessbild.jpg>]
 Overfull \hbox (36.99352pt too wide) in paragraph at lines 11--64
  [][] 
  []
@@ -1601,10 +1598,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 39636 strings out of 479837
- 935016 string characters out of 2880961
+ 39633 strings out of 479837
+ 934974 string characters out of 2880961
  1523227 words of memory out of 3000000
- 55801 multiletter control sequences out of 15000+200000
+ 55799 multiletter control sequences out of 15000+200000
  642434 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,26n,111p,10611b,1159s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1616,9 +1613,6 @@ replaced by a fixed one
 
 pdfTeX warning (dest): name{section.4} has been referenced but does not exist, 
 replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1} has been referenced but does not ex
-ist, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.3} has been referenced but does not exist, 
 replaced by a fixed one
@@ -1647,9 +1641,9 @@ onts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/
 lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Prog
 ram Files/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX/fonts
 /type1/public/lm/lmsy8.pfb>
-Output written on 00_PT_Kuhlturm.pdf (10 pages, 923875 bytes).
+Output written on 00_PT_Kuhlturm.pdf (10 pages, 923234 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 153 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
