@@ -3,7 +3,7 @@
 
 \subsection*{Ausbeute}
 
-Mit den \SI{60}{\milli \mol} Brombenzol und der Probenmasse von 4-Nitrobrombenzol mit \SI{4,22}{\gram} berechnet sich in Gleichung \ref{gl:ausbeute_4} der Gehalt an ausgefallenen 4-Nitrobrombenzol für diese Versuchsdurchführung.
+Mit den \SI{60}{\milli \mol} Brombenzol und der Probenmasse von 4-Nitrobrombenzol mit \SI{4,22}{\gram} berechnet sich in Gleichung \ref{gl:ausbeute_4} der Gehalt an ausgefallenen 4-Nitrobrombenzol für diese Versuchsdurchführung. Das über Rotationsverdampfen gewonnene Gemisch aus 2- und 4-Nitrobrombenzol besitzt eine Masse aus \SI{3,39}{\gram}.
 \begin{flalign}
 	\label{gl:ausbeute_4}
 	\eta_{\text{4-NBB}}	&= \frac{m_{\text{4-NBB, Probe}}}{M_{\text{4-NBB}}*n_{\text{Brombenzol}}}= \frac{n_{\text{4-NBB, Probe}}}{n_{\text{Brombenzol}}}\\[2mm]
@@ -12,26 +12,60 @@ Mit den \SI{60}{\milli \mol} Brombenzol und der Probenmasse von 4-Nitrobrombenzo
 \end{flalign}
 
 \subsection*{Dünnschichtchromatografie} 
+Mittels Dünnschichtchromatografie werden unter diesem Abschnitt das Rohprodukt mit Reinstprodukten verglichen, sowie der Einfluss der Polarität des Fließmittels auf die DC.
+Nach Gleichung \ref{gl:rf} ergeben sich für die $R_f$-Werte der Proben:
+\begin{flalign}
+	\label{gl:rf}
+	R_f  &= \frac{\text{Laufstrecke der Substanz}}{\text{Laufstrecke des Lösungsmittels}}
+\end{flalign}
+\begin{flalign}
+	R_f (\text{2-NBB, rein, 8:1}) &= \frac{\SI{4,2}{\centi\meter}}{\SI{6,5}{\centi \meter}}=\underline{0,65}
+\end{flalign}
 
-
-
-\subsection*{Schmelzpunktbestimmung}
-
+Zusammengefasst sind die Ergebnisse der DC in Tabelle \ref{tab: dc} dargestellt.
 
 \begin{table}[h!]
 	\renewcommand*{\arraystretch}{1.2}
 	\centering
-	\rowcolors{2}{white}{gray!25}
-	\caption{Zusammengefasste Ergebnisse der Gaschromatografie und der \mbox{Massenspektroskopie}}
-	\label{tab:zusammen}
-	\resizebox{10.5cm}{!}{
-		\begin{tabulary}{1.0\textwidth}{C|C|C|C}
+	\rowcolors{2}{gray!25}{white}
+	\caption{$R_f$-Werte für das Rohprodukt, reinem 2- und 4-Nitrobrombenzol}
+	\label{tab: dc}
+	\resizebox{15cm}{!}{
+		\begin{tabulary}{1.0\textwidth}{C|C|C|C|C}
 			\hline
-			\textbf{Verbindung} & \textbf{Retentionszeit} $\left[\si{\minute}\right]$& \textbf{Molare Masse} $\left[\si{\gram \per \mole}\right]$&\textbf{Anteil} $\left[\si{\percent}\right]$\\
+			& \textbf{Punkt 1 (roh)} & \textbf{4-NBB (rein)} &\textbf{Punkt 2 (roh)} & \textbf{2-NBB (rein)}\\
 			\hline
-			Verbindung 1 & 26,43 & 164 & 76,2\\
-			Verbindung 2 & 28,15 & 204 & 11,5\\
-			Verbindung 3 & 30,24 & 206 & 12,3\\
+			8:1 Strecke LM &\multicolumn{4}{c}{\SI{6,5}{\centi\meter}}\\
+			14:1 Strecke LM &\multicolumn{4}{c}{\SI{6,6}{\centi\meter}}\\
+			\hline
+			8:1 Strecke Substanz & \SI{5,4}{\centi \meter} &  \SI{5,6}{\centi \meter} & \SI{4,2}{\centi \meter} & \SI{4,2}{\centi \meter} \\
+			14:1 Strecke Substanz & \SI{5,2}{\centi \meter} &  \SI{5,3}{\centi \meter} & \SI{3,1}{\centi \meter} & \SI{3,2}{\centi \meter} \\
+			\hline
+			8:1 $R_f$-Wert & 0,83 &  0,86& 0,65 &0,65\\
+			14:1 $R_f$-Wert & 0,79 &  0,80& 0,47 &0,48\\
+			\hline      
+	\end{tabulary}
+}
+\end{table}%
+\FloatBarrier
+
+
+\newpage
+\subsection*{Schmelzpunktbestimmung}
+Die Ergebnisse der Schmelzpunktbestimmung für das ausgefallene 4-Nitrobrombenzol und dem über Rotationsverdampfen gewonnenen Gemisch aus 2- und 4-Nitrobrombenzol sind in Tabelle \ref{tab:schmelz} aufgeführt.
+
+\begin{table}[h!]
+	\renewcommand*{\arraystretch}{1.2}
+	\centering
+%	\rowcolors{2}{white}{gray!25}
+	\caption{Schmelzbereiche der Proben}
+	\label{tab:schmelz}
+	\resizebox{15cm}{!}{
+		\begin{tabulary}{1.0\textwidth}{C|C|C}
+			\hline
+			&\textbf{4-NBB (Probe)} & \textbf{2- bzw. 4-NBB-Gemisch (Probe)}\\
+			\hline
+			Schmelzbereich &117-\SI{119}{\celsius}&34-\SI{35}{\celsius}\\
 			\hline      
 	\end{tabulary}}
 \end{table}%
