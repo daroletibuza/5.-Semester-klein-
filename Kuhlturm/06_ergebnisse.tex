@@ -7,27 +7,73 @@ Werte, die aus dem Diagramm abzulesen sind, wie Enthalpie oder absoluter Wasserg
 
 \subsection*{Beispielrechnung eines Datensatzes}
 Im folgenden Abschnitt wird eine Berechnung des Volumenstroms für eine Datenreihe mit Hilfe der Theorie aus Abschnitt \ref{sec:physik} durchgeführt.
+\vspace*{-5mm}
 
 \begin{flalign}
 	\dot{Q}_V &= \dot{m}_{\ce{H2O}}*c_{P_{\ce{H2O}}}*\left(T_{\alpha, \ce{H2O},V}-T_{\omega, \ce{H2O},V}\right)\\
 	&= \dot{V}_{\ce{H2O}}*\rho_{\ce{H2O}, \SI{15}{\celsius}}*c_{P_{\ce{H2O}}}*\left(T_{\alpha, \ce{H2O},V}-T_{\omega, \ce{H2O},V}\right)\\
-	&= \SI{0,105}{\kmeter \per \hour}*\SI{999,1}{\kg\per \kmeter}*\SI{4,18}{\kilo \joule \per \kelvin \per \kg}*\left(\SI{302,7}{\celsius}-\SI{301,8}{\celsius}\right)\si{\kelvin}\\
+	&= \SI{0,105}{\kmeter \per \hour}*\SI{999,1}{\kg\per \kmeter}*\SI{4,18}{\kilo \joule \per \kelvin \per \kg}*\left(\SI{302,4}{\celsius}-\SI{301,5}{\celsius}\right)\si{\kelvin}\\
 	&=\SI{394,7}{\kilo \joule \per \hour} = \SI{0,1096}{\kilo \joule \per \second}\\
 	&=\underline{\SI{109,6}{\watt}}
 \end{flalign}
+\vspace*{-10mm}
 
 \begin{flalign}
 	\dot{Q}_{\text{Nutz}}  	&= \dot{m}_{\ce{H2O}}*c_{P_{\ce{H2O}}}*\left(\Delta T_{\ce{H2O},\text{ges}}-\Delta T_{\ce{H2O},V}\right)\\
-	\Delta T_{\ce{H2O},\text{ges}}&=\SI{304,4}{\kelvin}-\SI{293,7}{\kelvin} = \SI{10,7}{\kelvin}\\
-	\Delta T_{\ce{H2O},V} &=\SI{302,7}{\kelvin}-\SI{301,8}{\kelvin} = \SI{0,9}{\kelvin}\\
+	\Delta T_{\ce{H2O},\text{ges}}&=\SI{304,1}{\kelvin}-\SI{293,4}{\kelvin} = \SI{10,7}{\kelvin}\\
+	\Delta T_{\ce{H2O},V} &=\SI{302,4}{\kelvin}-\SI{301,5}{\kelvin} = \SI{0,9}{\kelvin}\\
 	\dot{Q}_{\text{Nutz}}  &= \SI{0,105}{\kmeter \per \hour}*\SI{999,1}{\kg\per \kmeter}*\SI{4,18}{\kilo \joule \per \kelvin \per \kg}*\left(10,7-0,9\right)\si{\kelvin}\\
-	&= \SI{4297,3}{\kilo \joule \per \hour} =\SI{1,1937}{\kilo \joule \per \second}\\
-	&= \underline{\SI{1193,7}{\watt}}
+	&= \SI{4297,3}{\kilo \joule \per \hour} =\SI{1,1937}{\kilo \joule \per \second} = \underline{\SI{1193,7}{\watt}}
 \end{flalign} 
+\vspace*{-10mm}
 
 \begin{flalign}
-	%Masse Luft berechenen
+		\dot{m}_L &= \frac{\dot{Q}_{\text{Nutz}}}{h_{L2}-h_{L1}}\\
+		&= \frac{\SI{1,1937}{\kilo \joule \per \second}}{\SI{65,10}{\kilo \joule \per \kg}-\SI{44,90}{\kilo \joule \per \kg}} = \underline{\SI{0,06}{\kg \per \second}}
 \end{flalign}
+\vspace*{-5mm}
+
+\begin{flalign}
+	E &= \SI{6,112E2}{\pascal}*\mathrm{e}^{\frac{17,62*T_L\left[\si{\celsius}\right]}{\SI{243,12}{\celsius}+T_L\left[\si{\celsius}\right]}}\\
+	E_{\text{Mischluft}}&= \SI{6,112E2}{\pascal}*\mathrm{e}^{\frac{17,62*\SI{26,3}{\celsius}}{\SI{243,12}{\celsius}+\SI{26,3}{\celsius}}}= \underline{\SI{3413,3}{\pascal}}
+\end{flalign}
+\begin{flalign}
+	E_{\text{Luftausgang}}&= \SI{6,112E2}{\pascal}*\mathrm{e}^{\frac{17,62*\SI{23,6}{\celsius}}{\SI{243,12}{\celsius}+\SI{23,6}{\celsius}}}=\underline{\SI{2909,4}{\pascal}}
+\end{flalign}
+\newpage
+\begin{flalign}
+	R_f &=\frac{R_t}{1-\varphi*\frac{E}{p}*\left(1-\frac{R_t}{R_d}\right)}\\
+	R_{f_{\text{Mischluft}}}&=\frac{\SI{287,06}{\joule\per \kg \per \kelvin}}{1-\SI{33,8}{\percent}*\frac{\SI{3413,3}{\pascal}}{\SI{1e5}{\pascal}}*\left(1-\frac{\SI{287,06}{\joule\per \kg \per \kelvin}}{\SI{461,52}{\joule\per \kg \per \kelvin}}\right)} = \underline{\SI{288,3}{\joule \per \kg \per \kelvin}}
+\end{flalign}
+
+\begin{flalign}
+	R_{f_{\text{Luftausgang}}}&=\frac{\SI{287,06}{\joule\per \kg \per \kelvin}}{1-\SI{88,2}{\percent}*\frac{\SI{2909,4}{\pascal}}{\SI{1e5}{\pascal}}*\left(1-\frac{\SI{287,06}{\joule\per \kg \per \kelvin}}{\SI{461,52}{\joule\per \kg \per \kelvin}}\right)} = \underline{\SI{289,8}{\joule \per \kg \per \kelvin}}
+\end{flalign}
+\vspace*{-10mm}
+
+\begin{flalign}
+	\rho_L &= \frac{p}{R_f*T_L\left[\si{\kelvin}\right]}\\
+	\rho_{\text{Mischluft}} &= \frac{\SI{1e5}{\pascal}}{\SI{288,3}{\joule \per \kg \per \kelvin}*\left(273,15+26,3\right)\si{\kelvin}}= \underline{\SI{1,17}{\kg \per \kmeter}}
+\end{flalign}
+\begin{flalign}
+	\rho_{\text{Luftausgang}} &= \frac{\SI{1e5}{\pascal}}{\SI{289,8}{\joule \per \kg \per \kelvin}*\left(273,15+23,6\right)\si{\kelvin}} =\underline{\SI{1,18}{\kg \per \kmeter}}
+\end{flalign}
+
+\begin{flalign}
+	\dot{V}_{L} &= \dot{m}_L*\rho_{L}\\
+	\dot{V}_{\text{Mischluft}} 
+	&= \dot{m}_L*\rho_{\text{Mischluft}}= \SI{0,06}{\kg \per \second}*\SI{1,17}{\kg \per \kmeter}\\
+	&= \SI{0,05}{\kmeter \per \second}=\underline{\SI{181}{\kmeter \per \hour}}
+\end{flalign}
+\begin{flalign}
+	\dot{V}_{\text{Luftausgang}} &=\dot{m}_L*\rho_{\text{Luftausgang}} = \SI{0,06}{\kg \per \second}*\SI{1,18}{\kg \per \kmeter}\\
+	&= \SI{0,05}{\kmeter \per \second} =\underline{\SI{181}{\kmeter \per \hour}}
+\end{flalign}
+
+In den Tabellen \ref{tab:versuchsreihe1} bis \ref{tab:versuchsreihe3} sind die restlichen Versuchsreihen zusammenfassend aufgeführt.
+
+In Summe ergeben alle berechneten Volumenströme einen Mittelwert von \SI{180,3}{\kmeter\per \hour} und alle Massenströme einen Mittelwert von \SI{0,06}{\kg \per \second}.
+
 
 
 	
@@ -73,7 +119,7 @@ Im folgenden Abschnitt wird eine Berechnung des Volumenstroms für eine Datenrei
 					\hline
 					Temperaturdifferenz  Wasser & K     & -     & -     & -     & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-} 
 					%
-					& \multicolumn{1}{c|}{14,9} & \multicolumn{1}{c|}{9,3} & \multicolumn{1}{c|}{8,4}
+					& \multicolumn{1}{c|}{10,7} & \multicolumn{1}{c|}{9,3} & \multicolumn{1}{c|}{8,4}
 					& \multicolumn{1}{c|}{10,7} & 9,3   & 8,4 \\
 					%
 					Wärmekapazität & \si{\kilo \joule \per \kg \per \kelvin} & -     & -     & -     & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-}
@@ -224,5 +270,78 @@ Im folgenden Abschnitt wird eine Berechnung des Volumenstroms für eine Datenrei
 	\end{table}%
 	\FloatBarrier
 \end{landscape}
+
+\begin{figure}[h!]
+	\begin{center}
+		\resizebox{0.8\textwidth}{!}{
+			\begin{tikzpicture}[trim axis left, trim axis right]
+				\begin{axis}[
+					axis lines = left,
+					width = 15cm,
+					height = 9cm,
+					xmin = 0,
+					xmax = 3,
+					ymin = 0,
+					ymax = 50,
+					xticklabels={,$T_{\ce{H2O}, , ,\alpha}$,$T_{\ce{H2O}, \omega}$,},
+					ytick = {0,5,...,50},
+					xtick = {0,0.5,...,3},
+					ylabel={Temperatur in \si{\celsius}},
+					%y label style={at={(0,0.5)}},
+					%xlabel={Druck in \si{\kilo \pascal}},
+					legend style={at={(0.75,0.7)},anchor=west},
+					%	y dir = reverse,
+					]
+					\addplot [color=blue, mark=*] coordinates{(0.5, 30.77) (2.5,21.30)};
+					
+					\addplot [color=red, mark=*] coordinates{(0.5,34.83) (2.5,23.43)};
+					
+					\addplot [color=black, mark=*] coordinates{(0.5,39.33) (2.5,25.83)};
+				
+					
+					
+					\legend{Versuchsreihe 1 (\SI{29}{\celsius}), Versuchsreihe 2 (\SI{38}{\celsius}), Versuchseihe 3 (\SI{43}{\celsius})}
+				\end{axis}
+			\end{tikzpicture}
+		}
+		\caption{Temperaturverläufe der Versuchsreihen 1 bis 3}
+		\label{dia:temperaturverlauf}
+	\end{center}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[h!]
+	\begin{center}
+		\resizebox{0.8\textwidth}{!}{
+			\begin{tikzpicture}[trim axis left, trim axis right]
+				\begin{axis}[
+					axis lines = left,
+					width = 15cm,
+					height = 7cm,
+					xmin = 0,
+					xmax = 4,
+					ymin = 0,
+					ymax = 30,
+					xticklabels={,VR 1 $\left(\SI{29}{\celsius}\right)$, VR 2 $\left(\SI{38}{\celsius}\right)$,VR 3 $\left(\SI{43}{\celsius}\right)$,},
+					ytick = {0,5,...,30},
+					xtick = {0,1,...,5},
+					ylabel={Temperaturdifferenz in \si{\kelvin}},
+					%y label style={at={(0,0.5)}},
+					%xlabel={Druck in \si{\kilo \pascal}},
+					legend style={at={(0.75,0.6)},anchor=west},
+					%	y dir = reverse,
+					]
+				
+					\addplot [color=black, mark=*] coordinates{(1,9.46) (2,12.5) (3,16.5)};
+					
+					
+				\end{axis}
+			\end{tikzpicture}
+		}
+		\caption{Verlauf der gemittelten Temperaturdifferenzen}
+		\label{dia:tdiffverlauf}
+	\end{center}
+\end{figure}
+\FloatBarrier
 
 
