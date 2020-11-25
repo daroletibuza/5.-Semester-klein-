@@ -1,5 +1,35 @@
 \section{Ergebnisse}
 \label{sec:ergebnisse}
+Nachfolgend sind die aufgenommenen Messwerte für Temperatur und relative Luftfeuchtigkeit zur Veranschaulichung in h-x-Diagrammen eingetragen.\\
+Werte, die aus dem Diagramm abzulesen sind, wie Enthalpie oder absoluter Wassergehalt wurden jedoch mittels frei verfügbaren Excel-Sheet des \textsc{Institutes für Luft- und Kältetechnik gemeinnützige Gesellschaft mbH} mit dem Namen "`Prozessdarstellung im hx-Diagramm"' berechnet \cite{mollier.2020}. Diese berechneten Daten decken sich mit den abzulesenden Werten und ermöglichen auch eine Bestimmung von Enthalpie und absoluter Luftfeuchte, welche außerhalb des gegebenen Diagrammbereiches liegen.
+
+\includepdf[pages=1-3, landscape]{img/hx}
+
+\subsection*{Beispielrechnung eines Datensatzes}
+Im folgenden Abschnitt wird eine Berechnung des Volumenstroms für eine Datenreihe mit Hilfe der Theorie aus Abschnitt \ref{sec:physik} durchgeführt.
+
+\begin{flalign}
+	\dot{Q}_V &= \dot{m}_{\ce{H2O}}*c_{P_{\ce{H2O}}}*\left(T_{\alpha, \ce{H2O},V}-T_{\omega, \ce{H2O},V}\right)\\
+	&= \dot{V}_{\ce{H2O}}*\rho_{\ce{H2O}, \SI{15}{\celsius}}*c_{P_{\ce{H2O}}}*\left(T_{\alpha, \ce{H2O},V}-T_{\omega, \ce{H2O},V}\right)\\
+	&= \SI{0,105}{\kmeter \per \hour}*\SI{999,1}{\kg\per \kmeter}*\SI{4,18}{\kilo \joule \per \kelvin \per \kg}*\left(\SI{302,7}{\celsius}-\SI{301,8}{\celsius}\right)\si{\kelvin}\\
+	&=\SI{394,7}{\kilo \joule \per \hour} = \SI{0,1096}{\kilo \joule \per \second}\\
+	&=\underline{\SI{109,6}{\watt}}
+\end{flalign}
+
+\begin{flalign}
+	\dot{Q}_{\text{Nutz}}  	&= \dot{m}_{\ce{H2O}}*c_{P_{\ce{H2O}}}*\left(\Delta T_{\ce{H2O},\text{ges}}-\Delta T_{\ce{H2O},V}\right)\\
+	\Delta T_{\ce{H2O},\text{ges}}&=\SI{304,4}{\kelvin}-\SI{293,7}{\kelvin} = \SI{10,7}{\kelvin}\\
+	\Delta T_{\ce{H2O},V} &=\SI{302,7}{\kelvin}-\SI{301,8}{\kelvin} = \SI{0,9}{\kelvin}\\
+	\dot{Q}_{\text{Nutz}}  &= \SI{0,105}{\kmeter \per \hour}*\SI{999,1}{\kg\per \kmeter}*\SI{4,18}{\kilo \joule \per \kelvin \per \kg}*\left(10,7-0,9\right)\si{\kelvin}\\
+	&= \SI{4297,3}{\kilo \joule \per \hour} =\SI{1,1937}{\kilo \joule \per \second}\\
+	&= \underline{\SI{1193,7}{\watt}}
+\end{flalign} 
+
+\begin{flalign}
+	%Masse Luft berechenen
+\end{flalign}
+
+
 	
 	\begin{landscape}
 			\begin{table}[h!]
@@ -36,7 +66,7 @@
 					absolute Luftfeuchte & \si{\gram \per \kg}  
 					& \multicolumn{1}{c|}{7,2} & \multicolumn{1}{c|}{7,3} & \multicolumn{1}{c|}{7,5} 
 					& 7,2   & 7,3   & 7,50  
-					& 16,2  & 16,6  & 26,44 & -     & -     & -     & -     & -     & - \\
+					& 16,2  & 16,6  & 17,7 & -     & -     & -     & -     & -     & - \\
 					Enthalpie & \si{\kilo \joule \per \kg} & \multicolumn{1}{c|}{40,4} & \multicolumn{1}{c|}{40,7} & \multicolumn{1}{c|}{41,5} 
 					& 44,9  & 50,9  & 56,4  
 					& 65,1  & 67,7  & 71,7  & -     & -     & -     & -     & -     & - \\
