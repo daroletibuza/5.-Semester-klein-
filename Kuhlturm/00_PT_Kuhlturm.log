@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.11.24)  25 NOV 2020 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.11.24)  27 NOV 2020 14:30
 entering extended mode
 **./00_PT_Kuhlturm.tex
 (00_PT_Kuhlturm.tex
@@ -1555,9 +1555,9 @@ File: img/fliessbild.jpg Graphic file (type jpg)
 Package pdftex.def Info: img/fliessbild.jpg  used on input line 9.
 (pdftex.def)             Requested size: 426.79135pt x 141.7083pt.
 
-Underfull \hbox (badness 1831) in paragraph at lines 17--22
-\T1/lmr/m/n/14.4 pas-sier-te. Die-ser Ver-lust-wär-me-strom wird für je-den Tei
-l-ver-such
+Underfull \hbox (badness 2990) in paragraph at lines 17--22
+\T1/lmr/m/n/14.4 - so-wie Was-seraustritt-stem-pe-ra-tur ge-mes-sen wur-den. In
+-ner-halb
  []
 
 
@@ -1570,6 +1570,18 @@ uftströmung
 Underfull \hbox (badness 1701) in paragraph at lines 17--22
 \T1/lmr/m/n/14.4 Es wur-de die re-la-ti-ve Luft-feuch-te nach dem Ge-blä-se und
  die
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 17--22
+\T1/lmr/m/n/14.4 Die Mess-wer-te für Tem-pe-ra-tur und re-la-ti-ve Feuch-te an 
+den
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 17--22
+\T1/lmr/m/n/14.4 kon-stan-te Tem-pe-ra-tur über ei-nem Zeit-raum von ca. [][] a
+n
  []
 
 
@@ -1698,20 +1710,36 @@ n
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 5--7
-\T1/lmr/m/n/14.4 2 sehr nied-rig aus-fällt. Grund hier-für könn-te ein un-güns-
-ti-ges
+Underfull \hbox (badness 1721) in paragraph at lines 5--7
+\T1/lmr/m/n/14.4 Mi-ni-mal-wert von [][] er-reich-ten, die Mas-sen-strö-me hin-
+ge-gen
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 5--7
-\T1/lmr/m/n/14.4 mit-tels \T1/lmr/m/sc/14.4 Grubbs\T1/lmr/m/n/14.4 -Test er-gib
-t die letz-ten Da-ten-rei-he mit +5K
+Underfull \hbox (badness 1484) in paragraph at lines 5--7
+\T1/lmr/m/n/14.4 einen Ma-xi-mal-wert von [][] und einen Mi-ni-mal-wert [][].
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 5--7
+\T1/lmr/m/n/14.4 der [] sehr nied-rig aus-fällt. Grund hier-für könn-te
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 5--7
+\T1/lmr/m/n/14.4 Ver-suchs-rei-he 2 je-doch kei-nen sta-tis-ti-schen Aus-rei-ÿe
+r für ei-ne
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 8--9
+[]\T1/lmr/m/n/14.4 In An-be-tracht der h-x-Diagramme ist zu ver-zeich-nen, dass
+ bis
  []
 
 
@@ -1721,8 +1749,9 @@ Underfull \hbox (badness 2057) in paragraph at lines 8--9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
+Underfull \hbox (badness 1112) in paragraph at lines 8--9
+\T1/lmr/m/n/14.4 ein-strö-men-der Luft-tem-pe-ra-tur die Tem-pe-ra-tur-dif-fe-r
+enz nicht nur
  []
 
 [15]) (011_fehlerbetrachtung.tex [16]
@@ -1747,13 +1776,19 @@ Underfull \hbox (badness 4726) in paragraph at lines 10--11
 \openout2 = `08_literatur.aux'.
 
  (08_literatur.tex (00_PT_Kuhlturm.bbl
-Underfull \hbox (badness 6380) in paragraph at lines 11--16
+Underfull \hbox (badness 5696) in paragraph at lines 11--17
+[]\T1/lmr/m/sc/14.4 VDI e. V.\T1/lmr/m/n/14.4 :  \T1/lmr/m/it/14.4 VDI-Wärmeatl
+as\T1/lmr/m/n/14.4 .  Ber-lin, Hei-del-berg :
+ []
+
+
+Underfull \hbox (badness 6380) in paragraph at lines 19--24
 []\T1/lmr/m/sc/14.4 Falko Zil-ler\T1/lmr/m/n/14.4 :  \T1/lmr/m/it/14.4 Mol-lier
  hx-Diagramm\T1/lmr/m/n/14.4 .  $https : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--16
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
 \T1/lmr/m/n/14.4 ilkdresden . de / leadmin / user _ upload / Artikel / 2008 / 
 hx / ILK _
  []
@@ -1768,10 +1803,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 40128 strings out of 479837
- 948742 string characters out of 2880961
- 1531194 words of memory out of 3000000
- 56293 multiletter control sequences out of 15000+200000
+ 40129 strings out of 479837
+ 948749 string characters out of 2880961
+ 1531222 words of memory out of 3000000
+ 56294 multiletter control sequences out of 15000+200000
  646696 words of font info for 107 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,26n,111p,10611b,2994s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1812,7 +1847,7 @@ mri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Progr
 am Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts
 /type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy8
 .pfb>
-Output written on 00_PT_Kuhlturm.pdf (19 pages, 1291450 bytes).
+Output written on 00_PT_Kuhlturm.pdf (19 pages, 1293528 bytes).
 PDF statistics:
  236 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
