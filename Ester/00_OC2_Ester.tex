@@ -7,12 +7,39 @@
 \documentclass[
 a4paper,
 12pt,
-draft=True]
+draft=false]
 {scrartcl}
 
 %angepasster \today Command
 \newcommand{\leadingzero}[1]{\ifnum #1<10 0\the#1\else\the#1\fi}
 \newcommand{\todayDE}{\leadingzero{\day}.\leadingzero{\month}.\the\year}
+
+%Tippbox
+\newcommand{\tipp}[2]{{
+		\textit{#1:}\\
+		\vspace*{-5mm}
+		\fbox{\parbox{\linewidth}{#2}}}}
+
+%Bild
+\newcommand{\bild}[2]{
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=#2\textwidth]{img/#1}
+		\caption{#1}
+		\label{fig:#1}
+	\end{figure}
+}
+
+%Bild in MInipage
+\newcommand{\minibild}[3]{
+	\vspace{#3}
+	\centering
+	\includegraphics[width=#2\textwidth]{img/#1}
+	\caption{#1}
+	\label{fig:#1}
+}
+
+%\usepackage[allfiguresdraft]{draftfigure}
 
 %Section als Chapter
 \RedeclareSectionCommand[%
