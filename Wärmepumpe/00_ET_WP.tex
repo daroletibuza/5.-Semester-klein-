@@ -44,7 +44,7 @@ draft=false]
 
 %Acronym 2
 \newcommand{\aacro}[3]{
-	\acro{#1}[#2]\ldots{#3}
+	\acro{#1}[#2]\ldots \, {#3}
 }
 
 
@@ -142,6 +142,7 @@ hidelinks
 
 %Abkürzungsverzeichnis
 \usepackage{acronym}
+\renewcommand*{\acsfont}[1]{\normalfont#1}
 
 %kein Abstand bei neuem Kapitel vom Seitenanfang
 %\vspace*{2.3\baselineskip} = ORIGINAL
