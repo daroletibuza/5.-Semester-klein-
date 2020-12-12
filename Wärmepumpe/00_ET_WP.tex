@@ -48,8 +48,16 @@ draft=false]
 }
 
 
+%Berechnung mit Python
+\newcommand{\pyr}[3][]{
+	\py{str(round(#2,#1)).replace('.', "{,}")} \, \si{#3}
+}
 
+
+%%Draft option für Bilder
 %\usepackage[allfiguresdraft]{draftfigure}
+
+\usepackage{pythontex}
 
 %Section als Chapter
 \RedeclareSectionCommand[%
@@ -144,7 +152,27 @@ hidelinks
 \usepackage{acronym}
 \renewcommand*{\acsfont}[1]{\normalfont#1}
 
-%kein Abstand bei neuem Kapitel vom Seitenanfang
+%Abkürzung ausführlicher
+%\usepackage[nonumberlist]{glossaries}
+%\setlength{\glslistdottedwidth}{.15\linewidth}
+%
+%\makenoidxglossaries 
+%
+%\newglossaryentry{kompl}
+%{
+%	name=$P$,
+%	description={Kompressorleistung (Messgerät)}
+%}
+%\newglossaryentry{kompldia}
+%{
+%	name=$P_{\text{Dia}}$,
+%	description={Kompressorleistung (Diagramm)}
+%}
+%
+%\glsaddall
+
+
+%%kein Abstand bei neuem Kapitel vom Seitenanfang
 %\vspace*{2.3\baselineskip} = ORIGINAL
 %\renewcommand*{\chapterheadstartvskip}{\vspace*{.0\baselineskip}}
 
