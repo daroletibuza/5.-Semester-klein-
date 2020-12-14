@@ -52,12 +52,18 @@ draft=false]
 \newcommand{\pyr}[3][]{
 	\py{str(round(#2,#1)).replace('.', "{,}")} \, \si{#3}
 }
+\usepackage{pythontex}
 
+%Formelzeichen und Einheit
+\newcommand{\syein}[2]{
+$#1 \left[\si{#2}\right]$}
+
+%Exponent nur in SI
+\newcommand{\expo}[1]{
+\SI{#1}{}}
 
 %%Draft option für Bilder
 %\usepackage[allfiguresdraft]{draftfigure}
-
-\usepackage{pythontex}
 
 %Section als Chapter
 \RedeclareSectionCommand[%
@@ -116,6 +122,7 @@ hidelinks
 \usepackage{pdfpages}
 \usepackage[shortlabels]{enumitem}
 \usepackage{chemfig}
+\usepackage{multirow}
 
 %Einheitenpackage
 \usepackage{siunitx}  
@@ -130,6 +137,8 @@ hidelinks
 \DeclareSIUnit\rpm{rpm}	
 \DeclareSIUnit\mws{mWS}	
 \DeclareSIUnit\degrees{^\circ}	
+\DeclareSIUnit\smeter{\raiseto{2} \meter}
+\DeclareSIUnit\kmeter{\raiseto{3} \meter}
 
 %Automatisch cdot statt *
 \DeclareMathSymbol{*}{\mathbin}{symbols}{"01}
