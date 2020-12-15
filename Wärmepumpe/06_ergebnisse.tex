@@ -116,12 +116,104 @@ Folgende Berechnungen, wie die der übertragenen Wärmen, werden sich auf die Mi
 \end{table}%
 \FloatBarrier
 
+Es folgen die Berechnungen zu Tab. \ref{tab:auswertung} und Tab. \ref{tab:auf4_5_7}. Innerhalb dieser Gleichungen sind ebenfalls die geforderten Lösungen der Aufgaben aufgeführt.
+Die maßgebliche Grundgleichung für die Berechnungen der Wärmen ist unter \eqref{gl:ggl} zu finden.
+\begin{flalign}
+	\label{gl:ggl}
+	\dot{Q} &= \dot{m}*c_p*\Delta T = \dot{m}*\left(h_i-h_j\right)
+\end{flalign}
+
 \newpage
+
+\subsection*{Berechnungen zu Tabelle \ref{tab:auswertung}}
 
 \begin{flalign}
 	P_{\text{Dia}} &= \dot{m}_{KM}*\left(h_2-h_1\right)= \SI{5,0e-3}{\kg \per \second}*\left(\SI{446}{\kilo \joule \per \kg}-\SI{408}{\kilo \joule \per \kg}\right)\\
 	&=\underline{\pyr{5*(446-408)}{\watt}}
 \end{flalign}
+\vspace{-10mm}
+
+\begin{flalign}
+	\dot{V}_1 &= v_1*\dot{m}_{KM} = \SI{30e-3}{\kmeter \per \kg}*\SI{5,0e-3}{\kg \per \second}\\
+						&=\underline{\SI{1,5e-4}{\kmeter \per \second}}
+\end{flalign}
+
+\textbf{$\rightarrow$ entspricht Aufgabe 3 (Messreihe 1 bis  5):}
+\begin{flalign}
+	\dot{Q}_{\text{W,Verd}} 	
+	&= \dot{m}_{KW, \text{Verdampfer}}*c_{P, \ce{H2O}}*\left(t_5-t_8\right)\\
+	&= \SI{50e-3}{\kilo \gram \per \second}*\SI{4180}{\joule \per \kelvin \per \kilogram}*\left(7,7-3,1\right) \, \si{\kelvin}= \underline{\pyr{50*4.18*(7.7-3.1)}{\watt}}
+\end{flalign}
+
+
+\textbf{$\rightarrow$ entspricht Aufgabe 3 (Messreihe 6):}
+\begin{flalign}
+	\dot{Q}_{\text{L,Verd}} 	
+	&= \dot{m}_{L}*c_{P, \text{Luft}}*\left(t_9-t_{10}\right)\\
+	&= \SI{0,22e-3}{\kilo \gram \per \second}*\SI{1000}{\joule \per \kelvin \per \kilogram}*\left(22,7-9,0\right) \, \si{\kelvin}= \underline{\pyr{0.22*1*(22.7-9)}{\watt}}
+\end{flalign}
+
+\begin{flalign}
+	\dot{Q}_{4-1} 
+	&= \dot{m}_{KM}*\left(h_1-h_4\right)\\
+	&= \SI{5,0e-3}{\kg \per \second}*\left(\SI{408e3}{\joule\per \kg}-\SI{230e3}{\joule\per \kg}\right)= \underline{\pyr{5/1000*(408*1000-230*1000)}{\watt}}
+\end{flalign}
+
+\textbf{$\rightarrow$ entspricht Aufgabe 2:}
+\begin{flalign}
+	\dot{Q}_{2-3} 
+	&= \dot{m}_{KM}*\left(h_2-h_3\right)\\
+	&= \SI{5,0e-3}{\kg \per \second}*\left(\SI{446e3}{\joule\per \kg}-\SI{230e3}{\joule\per \kg}\right)= \underline{\pyr{5/1000*(446*1000-230*1000)}{\watt}}
+\end{flalign}
+
+\begin{flalign}
+	\dot{Q}_{\text{W, Kond}} 
+	&= \dot{m}_{KW, \text{Kondensator}}*\left(t_7-t_6\right)\\
+	&= \SI{27e-3}{\kg \per \second}*\SI{4,18}{\joule \per\kg \per \kelvin}*\left(19,8-8,2\right)\, \si{\kelvin}= \underline{\pyr{27*4.18*(19.8-8.2)}{\watt}}
+\end{flalign}
+
+\textbf{$\rightarrow$ entspricht Aufgabe 1:}
+\begin{flalign}
+	\dot{Q}_{1-2}
+	&= \dot{m}_{KM}*\left(h_2-h_1\right)\\
+	&= \SI{5,0e-3}{\kg \per \second}*\left(\SI{446e3}{\joule\per \kg}-\SI{408e3}{\joule\per \kg}\right) = \underline{\pyr{5/1000*(446*1000-408*1000)}{\watt}}
+\end{flalign}
+
+\begin{flalign}
+	\dot{Q}_{\text{W, 5-6}} 
+	&= \dot{m}_{KW, \text{Kompressor}}*\left(t_6-t_5\right)\\
+	&= \SI{27e-3}{\kg \per \second}*\SI{4,18}{\joule \per\kg \per \kelvin}*\left(8,2-7,7\right)\, \si{\kelvin}= \underline{\pyr{27*4.18*(8.2-7.7)}{\watt}}
+\end{flalign}
+\begin{flalign}
+	\dot{Q}_{\text{W, 5-7}} 
+	&= \dot{m}_{KW, \text{Kompressor/Kondensator}}*\left(t_7-t_5\right)\\
+	&= \SI{27e-3}{\kg \per \second}*\SI{4,18}{\joule \per\kg \per \kelvin}*\left(19,8-7,7\right)\, \si{\kelvin}= \underline{\pyr{27*4.18*(19.8-7.7)}{\watt}}
+\end{flalign}
+
+\textbf{$\rightarrow$ entspricht Aufgabe 4:}
+\begin{flalign}
+	\varepsilon &= \frac{\dot{Q}_{\text{W, Kond}} }{P} = \frac{\SI{1309}{\watt}}{\SI{360}{\watt}} =\underline{\pyr[1]{1309/360}{}}
+\end{flalign}
+
+
+
+\begin{flalign}
+\pi &= \frac{p_2}{p_1}=\frac{\SI{701,7}{\kilo \pascal}}{\SI{216,7}{\kilo \pascal}} =\underline{\pyr[1]{701.7/216.7}{}}
+\end{flalign}
+
+\subsection*{Berechnungen zu Tabelle \ref{tab:auf4_5_7}}
+\textbf{$\rightarrow$ entspricht Aufgabe 5:}
+\begin{flalign}
+	\varepsilon_{\text{Kond+Komp}} &= \frac{\dot{Q}_{\text{W, 5-7}} }{P} = \frac{\SI{1366}{\watt}}{\SI{360}{\watt}}\\
+	&= \underline{\pyr[1]{1366/360}{}}
+\end{flalign}
+
+\textbf{$\rightarrow$ entspricht Aufgabe 7:}
+\begin{flalign}
+	\varepsilon_{\text{Kältemaschine}} &= \frac{\dot{Q}_{\text{W/L, Verd}} }{P} = \frac{\SI{961}{\watt}}{\SI{360}{\watt}}\\
+	&= \underline{\pyr[1]{961/360}{}}
+\end{flalign}
+
 
 \begin{table}[h!]
 	\renewcommand*{\arraystretch}{1.2}
@@ -153,7 +245,7 @@ Folgende Berechnungen, wie die der übertragenen Wärmen, werden sich auf die Mi
 			Kältemittelmassenstrom &\syein{\dot{m}_{KM}*10^{-3}}{\kg \per \second}&5,0&5,8&6,5&6,1&5,7&6,0e-3\\
 			\hline
 			Wärmeübertragung im Verdampfer &&&&&&&\\
-			\textit{vom Wasser }& \syein{\dot{Q}_{\text{W, Verd}}}{\watt}&961&\textcolor{red}{961}&1087&980&\textcolor{red}{652}&3002\\
+			\textit{vom Wasser/Luft}& \syein{\dot{Q}_{\text{W, Verd}}}{\watt}&961&\textcolor{red}{961}&1087&980&\textcolor{red}{652}&3002\\
 			\textit{an das Kältemittel }& \syein{\dot{Q}_{4-1}}{\watt}&890&\textcolor{red}{1009}&1021&952&\textcolor{red}{952}&936\\
 			\hline
 			Wärmeübertragung im Kondensator &&&&&&&\\
@@ -176,13 +268,6 @@ Folgende Berechnungen, wie die der übertragenen Wärmen, werden sich auf die Mi
 \end{table}%
 \FloatBarrier
 
-\newpage
-
-\subsection*{Lösung der Aufgaben}
-\subsubsection*{Aufgabe 4}
-\subsubsection*{Aufgabe 5}
-\subsubsection*{Aufgabe 7}
-
 % Table generated by Excel2LaTeX from sheet 'Daten'
 \begin{table}[h!]
 	\renewcommand*{\arraystretch}{1.2}
@@ -197,18 +282,20 @@ Folgende Berechnungen, wie die der übertragenen Wärmen, werden sich auf die Mi
 			\hline
 			Leistungsziffer &\syein{\varepsilon_{\text{Kond}}}{-}&3,6&3,9&3,8&3,7&3,3&3,8\\
 			Leistungsziffer &\syein{\varepsilon_{\text{Kond+Komp}}}{-}&3,8&4,2&4,0&4,0&3,5&4,1\\
-			Leistungsziffer& \syein{\varepsilon_{\text{Kältemaschine}}}{-}&2,7&2,5&2,7&2,5&1,7&7,5\\
+			Leistungsziffer& \syein{\varepsilon_{\text{Kältemaschine}}}{-}&2,7&2,5&2,7&2,5&1,7&\textbf{7,5}\\
 			\hline			
 	\end{tabulary}
 %}
 \end{table}%
 \FloatBarrier
 
+\newpage
+
 \subsubsection*{Aufgabe 6}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=1\textwidth]{img/diagramme-1}
+	\includegraphics[width=0.9\textwidth]{img/diagramme-1}
 	\caption{Leistungsziffern in Abhängigkeit vom Temperaturhub}
 	\label{dia:lz_t}
 \end{figure}
@@ -216,7 +303,7 @@ Folgende Berechnungen, wie die der übertragenen Wärmen, werden sich auf die Mi
 %Ende
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=1\textwidth]{img/diagramme-2}
+	\includegraphics[width=0.9\textwidth]{img/diagramme-2}
 	\caption{Überhitzungstemperaturen in Abhängigkeit vom Temperaturhub}
 	\label{dia:tu_t}
 \end{figure}
@@ -224,7 +311,7 @@ Folgende Berechnungen, wie die der übertragenen Wärmen, werden sich auf die Mi
 %Ende
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=1\textwidth]{img/diagramme-3}
+	\includegraphics[width=0.9\textwidth]{img/diagramme-3}
 	\caption{Überhitzungs-, Kondensations- und Heizwärme in Abhängigkeit vom Temperaturhub}
 	\label{dia:q_t}
 \end{figure}
