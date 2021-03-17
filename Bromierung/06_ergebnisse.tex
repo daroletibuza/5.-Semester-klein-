@@ -3,8 +3,42 @@
 \label{sec:ergebnisse}
 
 \subsection*{Schmelzpunkt}
+\begin{table}[h!]
+	\renewcommand*{\arraystretch}{1.2}
+	\centering
+	\rowcolors{2}{white}{gray!25}
+	\caption{Schmelzpunkte der Produktfraktionen}
+	\label{tab:schmelzpunkte}
+	%\resizebox{10.5cm}{!}{
+	\begin{tabulary}{1.0\textwidth}{C|CC}
+		\hline
+		\textbf{Fraktion} & \textbf{Fraktion 1} & \textbf{Fraktion 2}\\
+		\textbf{Schmelzpunkt in $\left[\si{\celsius}\right]$} &&\\
+		\hline			
+	\end{tabulary}
+	%}
+\end{table}%
+\FloatBarrier
 
 \subsection*{Löslichkeitsprüfung}
+
+\begin{table}[h!]
+	\renewcommand*{\arraystretch}{1.2}
+	\centering
+	\rowcolors{2}{white}{gray!25}
+	\caption{Löslichkeit des Rohproduktes in Wasser, Ethanol und Essigsäureethylester}
+	\label{tab:löslichkeit}
+	%\resizebox{10.5cm}{!}{
+	\begin{tabulary}{1.0\textwidth}{C|C|C|C}
+		\hline
+		\textbf{Lösemittel} & \textbf{Wasser} & \textbf{Ethanol} & \textbf{Essigsäureethylester} \\
+		\hline
+		\textbf{Rohprodukt} & nicht löslich & schwer löslich & löslich\\
+		\hline			
+	\end{tabulary}
+	%}
+\end{table}%
+\FloatBarrier
 
 \subsection*{Ausbeute}
 Die zu Beginn des Versuches abgemessenen \SI{11,5}{\milli \liter} frisch destilliertes Styrol und \SI{5,0}{\milli\liter} Brom entsprachen Stoffmengen von jeweils \SI{0,1}{\mol}. Die Massen der jeweiligen Produktfraktionen wurden eingewogen und sind in Tabelle \ref{tab:massen} aufgeführt. Molare Massen möglicher Nebenprodukte (siehe Abb. \ref{fig:nebenprodukte}) und des Hauptproduktes (1,2-Dibrom-1-phenylethan) sind mit \SI{182}{\gram \per \mole} und \SI{262}{\gram \per \mol} bestimmt worden.
@@ -12,7 +46,7 @@ Die zu Beginn des Versuches abgemessenen \SI{11,5}{\milli \liter} frisch destill
 \begin{table}[h!]
 	\renewcommand*{\arraystretch}{1.2}
 	\centering
-	\rowcolors{2}{gray!25}{white}
+	\rowcolors{2}{white}{gray!25}
 	\caption{Massen der Produktfraktionen für die Bromierung von Styrol}
 	\label{tab:massen}
 	%\resizebox{10.5cm}{!}{
@@ -78,12 +112,5 @@ Aus diesen Angaben ergeben sich die folgenden Berechnungen zur Ausbeuteberechnun
 %Fraktion2: Reaktion 2
 %Rohprodukt(Fraktion 1+2): Ausbeute was generell umgesetzt wurde
 %Produkt (aus 1g Rohprodukt): Ausbeute was durch Umkristallisation übrig bleibt --> Hochrechnung auf Rohprodukt
-
-\begin{flalign}
-	\label{gl:ausbeute}
-	\eta 	&= \frac{n_{\text{Ester}}}{n_{\text{n-Hexanol}}} = \frac{m_{\text{Ester}}}{n_{\text{n-Hexanol}}*M_{\text{Ester}}}\\[2mm]
-	&=	\frac{\SI{112,98}{\gram}}{\SI{1,00}{\mol}*\SI{144,21}{\gram \per \mole}}\\
-	&=\underline{\SI{78,3}{\percent}}
-\end{flalign}
 
 
