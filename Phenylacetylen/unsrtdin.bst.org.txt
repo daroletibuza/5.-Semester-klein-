@@ -684,19 +684,19 @@ FUNCTION {format.edition.or.date}
                 { " gesendet: " "-- " type * swap$ *
                   format.date *
                 }
-                { "\,Abruf:\,"
+                { "\,Version:\,"
                   format.date *
                 }
               if$
              }
-             { "\,Abruf:\,"
+             { "\,Version:\,"
                format.date *
              }
            if$
         }
         { year empty$
-            { "\,Abruf:\," edition * }
-            { "\,Abruf:\," edition * ", " *
+            { "\,Version:\," edition * }
+            { "\,Version:\," edition * ", " *
               format.date *
             }
           if$

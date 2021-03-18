@@ -22,26 +22,29 @@ draft=false]
 	
 %Uhr
 	\newcommand{\uhr}[2]{#1:#2 Uhr}
-
 %Bild
-\newcommand{\bild}[2]{
+\newcommand{\bild}[3]{
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=#2\textwidth]{img/#1}
+		\includegraphics[width=#3\textwidth]{img/#2}
 		\caption{#1}
-		\label{fig:#1}
+		\label{fig:#2}
 	\end{figure}
 }
 
 %Bild in MInipage
 \newcommand{\minibild}[3]{
-	\vspace{#3}
+	%\vspace{#3}
 	\centering
-	\includegraphics[width=#2\textwidth]{img/#1}
+	\includegraphics[width=#3\textwidth]{img/#2}
 	\caption{#1}
-	\label{fig:#1}
+	\label{fig:#2}
 }
 
+%Anmerkung
+\newcommand{\anmerkung}[1]{
+	\textcolor{red}{#1}
+}
 %\usepackage[allfiguresdraft]{draftfigure}
 
 %Section als Chapter
